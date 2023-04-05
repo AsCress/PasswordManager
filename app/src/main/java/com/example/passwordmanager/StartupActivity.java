@@ -40,7 +40,7 @@ public class StartupActivity extends AppCompatActivity {
                 ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(
                         StartupActivity.this, imageView, ViewCompat.getTransitionName(imageView));
                 // starting our activity with below method.
-                startActivity(intent, options.toBundle());
+                startActivity(intent);
             }
 
         }, SPLASH_DISPLAY_LENGTH);
